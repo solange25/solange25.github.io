@@ -1,0 +1,40 @@
+.resume .cv_rigth .cv_education ul {
+  padding-left: 40px;
+  overflow: hidden;
+}
+.resume .cv_rigth ul li {
+  position: relative;
+}
+.resume .cv_rigth ul li .date {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.resume .cv_rigth ul li .info {
+  margin-bottom: 20px;
+}
+
+.resume.cv_rigth ul li:last-child .info {
+  margin-bottom: 0;
+}
+
+.resume .cv_rigth .cv_education ul li::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #0bb5f4;
+}
+.resume .cv_rigth .cv_skills ul li::after,
+.resume .cv_rigth .cv_education li::after {
+  content: '';
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 3px;
+  height: 115px;
+  background: #0bb5f4;
+}
