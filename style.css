@@ -1,0 +1,682 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+li {
+  list-style: none;
+}
+/* NAVIGATION BARE*/
+.navbar {
+  overflow: hidden;
+}
+
+.navbar a {
+  color: beige;
+  padding: 1px 16px;
+  float: right;
+  font-size: 25px;
+}
+.navbar a:hover {
+  background-color: black;
+}
+a.active {
+  background-color: transparent;
+}
+.navb {
+  overflow: hidden;
+  background-color: black;
+}
+.navb a {
+  color: beige;
+  padding: 1px 16px;
+  float: right;
+  font-size: 25px;
+}
+.navb a:hover {
+  background-color: #ae3636;
+}
+
+/* portfolio section */
+.portfolio {
+  position: absolute;
+  width: 1530px;
+  height: 100vh;
+  background: linear-gradient(
+      179.66deg,
+      #ae3636 0.77%,
+      rgba(47, 47, 50, 0) 77.45%
+    ),
+    #171616;
+  background-size: cover;
+}
+/* all images */
+.img1 {
+  position: absolute;
+  width: 300px;
+  height: 446.88px;
+  left: 289px;
+  top: 173px;
+  border: 14px solid #492626;
+  box-sizing: border-box;
+  border-radius: 207px;
+}
+.img5 {
+  position: absolute;
+  width: 35px;
+  height: 22.1px;
+  left: 1735px;
+  top: 1067px;
+  border: 14px solid #492626;
+}
+.img6 {
+  position: absolute;
+  width: 139px;
+  height: 190px;
+  left: 254px;
+  top: 35px;
+  border-radius: 192px;
+}
+/* FOLLOWS */
+/* Instagram*/
+.insta {
+  position: absolute;
+  width: 57px;
+  left: calc(50% - 57px / 2 + 320.5px);
+  top: 80.22%;
+  bottom: 5.2%;
+}
+.insta .vector {
+  position: absolute;
+  left: 12.51%;
+  right: 12.46%;
+  top: 12.52%;
+  bottom: 12.33%;
+  background: #a33434;
+}
+.insta .vector1 {
+  position: absolute;
+  left: 65.53%;
+  right: 25.48%;
+  top: 25.54%;
+  bottom: 65.48%;
+
+  background: #a33434;
+}
+.insta .vector2 {
+  position: absolute;
+  left: 30.73%;
+  right: 30.74%;
+  top: 30.74%;
+  bottom: 30.73%;
+
+  background: #a33434;
+}
+/*facebook*/
+.facebook {
+  position: absolute;
+  width: 57px;
+  left: 76.89%;
+  right: 21.61%;
+  top: 80.29%;
+  bottom: 6.52%;
+
+  background: #a33434;
+}
+
+/* email */
+.email {
+  width: 57px;
+  position: absolute;
+  left: 91.1%;
+  right: 6.49%;
+  top: 80.8%;
+  bottom: 6.44%;
+}
+.email .vector {
+  position: absolute;
+  left: 91.1%;
+  right: 6.49%;
+  top: 80.8%;
+  bottom: 6.44%;
+  background: #a33434;
+}
+/* linkdin*/
+.linkdin {
+  width: 57px;
+  position: absolute;
+  left: 82.91%;
+  right: 14.82%;
+  top: 80.94%;
+  bottom: 6.46%;
+
+  background: #a33434;
+}
+/* log */
+.ms {
+  position: absolute;
+  width: 129px;
+  height: 113px;
+  left: 108px;
+  top: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 100px;
+  /* identical to box height */
+
+  letter-spacing: -0.15em;
+
+  color: #ffffff;
+
+  box-sizing: border-box;
+}
+.rect1 {
+  position: absolute;
+  width: 266px;
+  height: 422px;
+  left: 0px;
+  top: -162px;
+
+  background: rgba(171, 53, 53, 0.2);
+  border-radius: 133px;
+}
+.rect2 {
+  position: absolute;
+  width: 266px;
+  height: 422px;
+  left: 156px;
+  top: -30px;
+
+  background: rgba(171, 53, 53, 0.2);
+  border-radius: 133px;
+}
+
+/* about me */
+.buttons {
+  position: absolute;
+  width: 201px;
+  height: 52px;
+  left: 755px;
+  top: 461px;
+  color: white;
+
+  background: #a33434;
+}
+
+.button {
+  color: white;
+}
+.name {
+  position: absolute;
+  width: 429px;
+  height: 42px;
+  left: 755px;
+  top: 329px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #f2f2f2;
+}
+.activ {
+  position: absolute;
+  width: 809px;
+  height: 57px;
+  left: 757px;
+  top: 397px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 40px;
+
+  color: #f2f2f2;
+}
+.hello {
+  position: absolute;
+  width: 189px;
+  height: 84px;
+  left: 757px;
+  top: 237px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 84px;
+
+  color: #f2f2f2;
+}
+
+.about {
+  position: absolute;
+  width: 1417px;
+  height: 240px;
+  left: 45px;
+  top: 90px;
+  background-color: black;
+  border-radius: 62px;
+}
+.top {
+  position: absolute;
+  width: 104px;
+  height: 34px;
+  left: 271px;
+  top: 0px;
+  font-size: 24px;
+  line-height: 28px;
+  color: white;
+}
+.aboutp {
+  position: absolute;
+  width: 631px;
+  height: 204px;
+  left: 647px;
+  top: 39px;
+  font-size: 24px;
+  line-height: 42px;
+  text-align: justify;
+  color: white;
+}
+.web {
+  position: absolute;
+  width: 474px;
+  height: 308px;
+  left: 166px;
+  top: 360px;
+
+  background: black;
+}
+.top2 {
+  position: absolute;
+  width: 284px;
+  height: 32px;
+  left: 130px;
+  top: 35px;
+  font-size: 30px;
+  line-height: 42px;
+
+  color: white;
+}
+.webp {
+  position: absolute;
+  width: 427px;
+  height: 122px;
+  left: 30px;
+  top: 130px;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: justify;
+
+  color: white;
+}
+.network {
+  position: absolute;
+  width: 490px;
+  height: 313px;
+  left: 842px;
+  top: 360px;
+  background: black;
+}
+.top3 {
+  position: absolute;
+  width: 353px;
+  height: 42px;
+  left: 90px;
+  top: 30px;
+  font-size: 30px;
+  line-height: 40px;
+  color: white;
+  text-align: justify;
+}
+.networkp {
+  position: absolute;
+  width: 422px;
+  height: 152px;
+  left: 35px;
+  top: 130px;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+  text-align: justify;
+}
+
+/* contact form */
+
+.followme {
+  position: absolute;
+  width: 292px;
+  height: 49px;
+  left: 122px;
+  top: 178px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+  color: #211d1d;
+}
+.contact {
+}
+.column {
+  float: left;
+  width: 70px;
+  padding: 5px;
+}
+
+/* Clear floats after the columns */
+.follow {
+  position: absolute;
+  width: 64px;
+  height: 69px;
+  left: 122px;
+  top: 338px;
+}
+
+.follow::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.contact-form {
+  width: 85%;
+  max-width: 630px;
+  background: #f1f1f1;
+  position: absolute;
+  top: 55%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 20px #000000b3;
+  font-family: 'monospace', sans-serif;
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.contact-form form {
+  position: absolute;
+  width: 778px;
+  height: 480px;
+  left: 620px;
+  margin-top: 100px;
+  transition: all 4s ease-in-out;
+  border: 1px solid black;
+  margin: 8px 0;
+  padding: 25px;
+  border-radius: 8px;
+}
+.form-contact {
+  width: 400px;
+  background-color: transparent;
+  border-radius: 10px;
+  outline: none;
+  border-bottom: 1px solid black;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+input {
+  height: 45px;
+}
+form .submit {
+  background-color: #a33434;
+  border-color: transparent;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  height: 40px;
+}
+form .submit:hover {
+  background-color: #f44336;
+  cursor: pointer;
+}
+/* my resume */
+
+.resume {
+  left: 40px;
+}
+.resume ul li {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+ul li .skill_name {
+  width: 25%;
+}
+.resume_skills ul li .skill_progress {
+  width: 60%;
+  margin: 10px;
+  padding: 6px;
+  height: 5px;
+  background: #c4c4c4;
+  border: 2px solid #211d1d;
+  border-radius: 8px;
+  position: relative;
+}
+.skill_per {
+  width: 50%;
+}
+.resume_skills ul li .skill_progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #211d1d;
+  border-radius: 8px;
+}
+/*resume2*/
+
+.resume_experience .vl {
+  border-left: 6px solid black;
+  height: 1000px;
+  position: absolute;
+  left: 50%;
+  margin-left: 0px;
+  top: 570px;
+}
+.resume_educations .vl1 {
+  border-left: 6px solid black;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  margin-left: 0px;
+  top: 2000px;
+}
+.resume_educations .vl1 ul li ::before,
+.resume_experience .vl ul li ::before {
+  content: '';
+  position: absolute;
+  word-spacing: 30px;
+  left: -39px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: black;
+  line-height: 400px;
+}
+.date {
+  width: 150px;
+  height: 50px;
+  left: 500px;
+  right: -130px;
+  margin-left: -10px;
+  top: 0px;
+  font-size: 20px;
+  color: white;
+  background-color: #752222;
+  border-radius: 6px;
+  outline: none;
+}
+.turne {
+  width: 150px;
+  height: 50px;
+  top: 0px;
+  font-size: 20px;
+  color: white;
+  background-color: #752222;
+  right: 150px;
+  margin-left: -250px;
+  border-radius: 6px;
+  outline: none;
+}
+.resume_experience .left {
+  position: absolute;
+  width: 567px;
+  height: 189px;
+  left: 0%;
+  top: 500px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+}
+.academie {
+  position: absolute;
+  top: 930px;
+  right: -450px;
+  padding: 60px;
+  font-size: 20px;
+  text-align: justify;
+}
+.ecole {
+  position: absolute;
+  top: 280px;
+  right: -450px;
+  padding: 60px;
+  font-size: 20px;
+  text-align: justify;
+}
+.bachelor {
+  position: absolute;
+  top: 1650px;
+  right: -450px;
+  padding: 60px;
+  font-size: 20px;
+  text-align: justify;
+}
+.edu {
+  top: 3000px;
+}
+
+.rigth {
+  position: absolute;
+  right: 50%;
+  top: 450px;
+}
+.sirius {
+  position: absolute;
+  left: -600px;
+  margin-right: 20px;
+  font-size: 20px;
+  text-align: justify;
+  top: 100px;
+  padding: 20px;
+}
+
+.shekina {
+  position: absolute;
+  left: -600px;
+  margin-right: 20px;
+  font-size: 20px;
+  text-align: justify;
+  top: 770px;
+  padding: 20px;
+}
+.master {
+  position: absolute;
+  left: -600px;
+  margin-right: 20px;
+  font-size: 20px;
+  text-align: justify;
+  top: 1520px;
+  padding: 20px;
+}
+.rigth .apape {
+  position: absolute;
+  left: -600px;
+  margin-right: 20px;
+  font-size: 20px;
+  text-align: justify;
+  top: 2070px;
+  padding: 20px;
+}
+
+/* my project*/
+.project {
+  display: grid;
+}
+.sushi {
+  position: absolute;
+  width: 100px;
+  height: 295.28px;
+  left: 200px;
+  top: 145px;
+  background: url(image.png);
+}
+.Rwanda {
+  position: absolute;
+  width: 100px;
+  height: 308px;
+  left: 630px;
+  top: 145px;
+  background: url(image.png);
+}
+.music {
+  position: absolute;
+  width: 100px;
+  height: 293.55px;
+  left: 1004px;
+  top: 145px;
+  background: url(image.png);
+}
+.Itword {
+  position: absolute;
+  width: 400px;
+  height: 269px;
+  left: 255px;
+  top: 550px;
+  background: url(image.png);
+}
+.all {
+  position: absolute;
+  width: 438px;
+  height: 269px;
+  left: 877px;
+  top: 550px;
+}
+.h1 {
+  text-align: center;
+  position: absolute;
+  width: 1000px;
+  height: 130.03px;
+  left: 342.6px;
+  top: 400px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 75px;
+  color: black;
+}
